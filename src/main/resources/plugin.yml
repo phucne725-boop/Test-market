@@ -1,0 +1,17 @@
+name: PhutCityMarket
+version: 0.1.0
+main: vn.phutcity.market.PhutCityMarket
+api-version: '1.21'
+author: PHUT CITY
+description: Admin shelf product configuration for PHUT CITY.
+
+commands:
+  marketadmin:
+    description: Open the admin manager for the shelf.
+    usage: /marketadmin
+    permission: phutcity.market.admin
+
+permissions:
+  phutcity.market.admin:
+    description: Allows managing PHUT CITY shelves.
+    default: op
